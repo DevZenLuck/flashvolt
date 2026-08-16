@@ -6,7 +6,7 @@ export default function Logo({ to, dark = false, className = "" }) {
     <span className="inline-flex items-center gap-2.5">
       <span className="grid h-9 w-9 place-items-center overflow-hidden rounded-lg bg-white shadow-card">
         <img
-          src="/FlashVolt_logo.png"
+          src={`${import.meta.env.BASE_URL}FlashVolt_logo.png`}
           alt="FlashVolt"
           className="h-full w-full object-contain"
           draggable={false}
